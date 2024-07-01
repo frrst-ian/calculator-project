@@ -59,7 +59,6 @@ function handleSymbol(symbol) {
 
 function handleMath(symbol) {
 
-
     const intBuffer = parseFloat(buffer); // Convert buffer to a float
     if (runningTotal === 0) {
         runningTotal = intBuffer;
